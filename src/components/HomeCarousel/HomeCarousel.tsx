@@ -8,7 +8,7 @@ import ArrowForwardOutlinedIcon from "@mui/icons-material/ArrowForwardOutlined";
 import ArrowBackOutlinedIcon from "@mui/icons-material/ArrowBackOutlined";
 // import { FaArrowCircleLeft, FaArrowCircleRight } from 'react-icons/fa';
 
-const HomeCarousel = (props) => {
+const HomeCarousel = (props: any) => {
   const customLoader = ({ src }) => {
     return src;
   };
